@@ -61,7 +61,7 @@ export async function generatePayslipPdf(url: string) {
     format: "A4",
     printBackground: true,
     tagged: true,
-    scale: 0.7
+    scale: 0.725
   })
 
   await browser.close()
